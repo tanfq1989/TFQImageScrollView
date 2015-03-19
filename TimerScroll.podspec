@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 
   s.author       = { "tanfq1989" => "tanfq1989@hotmail.com" }
 
-	 s.source       = { :git => "https://github.com/tanfq1989/TFQImageScrollView.git", :tag => "0.0.1" }
-  s.source_files = "Classes","**/*.{h,m,swift}"
+  s.source       = { :git => "https://github.com/tanfq1989/TFQImageScrollView.git", :tag => "0.0.1" }
+  s.source_files = "Classes","TimerScroll/class/*.{h,m,swift}"
+  s.framework    = "XCTest"
 
 end
