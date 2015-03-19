@@ -17,14 +17,14 @@
 		8418A9FC1AB90E9D00F0AAEC /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8418A9F41AB90E9D00F0AAEC /* UIImageView+WebCache.m */; };
 		8418A9FE1AB90EC600F0AAEC /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8418A9FD1AB90EC600F0AAEC /* ImageIO.framework */; };
 		8418AA001AB90F5600F0AAEC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8418A9FF1AB90F5600F0AAEC /* MapKit.framework */; };
-		844914031AB7F0FB00615C9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844914021AB7F0FB00615C9D /* AppDelegate.swift */; };
-		844914051AB7F0FB00615C9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844914041AB7F0FB00615C9D /* ViewController.swift */; };
 		844914081AB7F0FB00615C9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844914061AB7F0FB00615C9D /* Main.storyboard */; };
 		8449140A1AB7F0FB00615C9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844914091AB7F0FB00615C9D /* Images.xcassets */; };
 		8449140D1AB7F0FB00615C9D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8449140B1AB7F0FB00615C9D /* LaunchScreen.xib */; };
 		844914191AB7F0FB00615C9D /* TimerScrollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844914181AB7F0FB00615C9D /* TimerScrollTests.swift */; };
-		8449142D1AB822CF00615C9D /* TFQImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8449142C1AB822CF00615C9D /* TFQImageScrollView.m */; };
-		8449142F1AB84F7900615C9D /* ImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8449142E1AB84F7900615C9D /* ImageScrollView.swift */; };
+		84658CE41ABAB2AE009D2D34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84658CDF1ABAB2AE009D2D34 /* AppDelegate.swift */; };
+		84658CE51ABAB2AE009D2D34 /* ImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84658CE01ABAB2AE009D2D34 /* ImageScrollView.swift */; };
+		84658CE61ABAB2AE009D2D34 /* TFQImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84658CE21ABAB2AE009D2D34 /* TFQImageScrollView.m */; };
+		84658CE71ABAB2AE009D2D34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84658CE31ABAB2AE009D2D34 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,8 +62,6 @@
 		8418A9FF1AB90F5600F0AAEC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		844913FD1AB7F0FB00615C9D /* TimerScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimerScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		844914011AB7F0FB00615C9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		844914021AB7F0FB00615C9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		844914041AB7F0FB00615C9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		844914071AB7F0FB00615C9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		844914091AB7F0FB00615C9D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8449140C1AB7F0FB00615C9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -71,9 +69,11 @@
 		844914171AB7F0FB00615C9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		844914181AB7F0FB00615C9D /* TimerScrollTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerScrollTests.swift; sourceTree = "<group>"; };
 		8449142A1AB822CE00615C9D /* TimerScroll-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimerScroll-Bridging-Header.h"; sourceTree = "<group>"; };
-		8449142B1AB822CF00615C9D /* TFQImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFQImageScrollView.h; sourceTree = "<group>"; };
-		8449142C1AB822CF00615C9D /* TFQImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFQImageScrollView.m; sourceTree = "<group>"; };
-		8449142E1AB84F7900615C9D /* ImageScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageScrollView.swift; sourceTree = "<group>"; };
+		84658CDF1ABAB2AE009D2D34 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84658CE01ABAB2AE009D2D34 /* ImageScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageScrollView.swift; sourceTree = "<group>"; };
+		84658CE11ABAB2AE009D2D34 /* TFQImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFQImageScrollView.h; sourceTree = "<group>"; };
+		84658CE21ABAB2AE009D2D34 /* TFQImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFQImageScrollView.m; sourceTree = "<group>"; };
+		84658CE31ABAB2AE009D2D34 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,11 +146,7 @@
 		844913FF1AB7F0FB00615C9D /* TimerScroll */ = {
 			isa = PBXGroup;
 			children = (
-				844914021AB7F0FB00615C9D /* AppDelegate.swift */,
-				844914041AB7F0FB00615C9D /* ViewController.swift */,
-				8449142B1AB822CF00615C9D /* TFQImageScrollView.h */,
-				8449142C1AB822CF00615C9D /* TFQImageScrollView.m */,
-				8449142E1AB84F7900615C9D /* ImageScrollView.swift */,
+				84658CDE1ABAB2AE009D2D34 /* class */,
 				844914061AB7F0FB00615C9D /* Main.storyboard */,
 				8418A9E01AB90E9D00F0AAEC /* SDWebImage */,
 				844914091AB7F0FB00615C9D /* Images.xcassets */,
@@ -184,6 +180,18 @@
 				844914171AB7F0FB00615C9D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84658CDE1ABAB2AE009D2D34 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				84658CDF1ABAB2AE009D2D34 /* AppDelegate.swift */,
+				84658CE01ABAB2AE009D2D34 /* ImageScrollView.swift */,
+				84658CE11ABAB2AE009D2D34 /* TFQImageScrollView.h */,
+				84658CE21ABAB2AE009D2D34 /* TFQImageScrollView.m */,
+				84658CE31ABAB2AE009D2D34 /* ViewController.swift */,
+			);
+			path = class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,16 +294,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				844914051AB7F0FB00615C9D /* ViewController.swift in Sources */,
 				8418A9FC1AB90E9D00F0AAEC /* UIImageView+WebCache.m in Sources */,
 				8418A9FB1AB90E9D00F0AAEC /* UIButton+WebCache.m in Sources */,
 				8418A9F81AB90E9D00F0AAEC /* SDWebImageDownloader.m in Sources */,
-				844914031AB7F0FB00615C9D /* AppDelegate.swift in Sources */,
-				8449142F1AB84F7900615C9D /* ImageScrollView.swift in Sources */,
+				84658CE61ABAB2AE009D2D34 /* TFQImageScrollView.m in Sources */,
+				84658CE41ABAB2AE009D2D34 /* AppDelegate.swift in Sources */,
 				8418A9F71AB90E9D00F0AAEC /* SDWebImageDecoder.m in Sources */,
-				8449142D1AB822CF00615C9D /* TFQImageScrollView.m in Sources */,
+				84658CE71ABAB2AE009D2D34 /* ViewController.swift in Sources */,
 				8418A9F91AB90E9D00F0AAEC /* SDWebImageManager.m in Sources */,
 				8418A9FA1AB90E9D00F0AAEC /* SDWebImagePrefetcher.m in Sources */,
+				84658CE51ABAB2AE009D2D34 /* ImageScrollView.swift in Sources */,
 				8418A9F51AB90E9D00F0AAEC /* MKAnnotationView+WebCache.m in Sources */,
 				8418A9F61AB90E9D00F0AAEC /* SDImageCache.m in Sources */,
 			);
