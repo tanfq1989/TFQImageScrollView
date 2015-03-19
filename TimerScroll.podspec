@@ -20,6 +20,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/tanfq1989/TFQImageScrollView.git", :tag => "0.0.1" }
   s.source_files = "Classes","TimerScroll/class/*.{h,m,swift}"
+  s.exclude_files= "Exclude","TimerScrollTests/**/*.*"
   s.framework    = "XCTest"
 
 end
