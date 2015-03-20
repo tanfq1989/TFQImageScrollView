@@ -1,11 +1,11 @@
 # Uncomment this line to define a global platform for your project
 # platform :ios, '6.0'
 
-target 'TimerScroll' do
-
+target 'TFQImageScrollView' do
+   pod 'SDWebImage'
 end
 
-target 'TimerScrollTests' do
+target 'TFQImageScrollViewTests' do
 
 end
 

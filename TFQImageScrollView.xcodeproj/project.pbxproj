@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84B45AEF1ABBAF5800BE3B2E /* TFQImageScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 84B45AEE1ABBAF5800BE3B2E /* TFQImageScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84B45AF51ABBAF5900BE3B2E /* TFQImageScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B45AE91ABBAF5800BE3B2E /* TFQImageScrollView.framework */; };
+		84B45AFC1ABBAF5900BE3B2E /* TFQImageScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B45AFB1ABBAF5900BE3B2E /* TFQImageScrollViewTests.m */; };
+		84B45B061ABBAFC900BE3B2E /* TFQImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B45B051ABBAFC900BE3B2E /* TFQImageScrollView.m */; };
+		882F6B11C6890F4CDFCC4EE0 /* libPods-TFQImageScrollView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B2A75A9DC9B0FEAA5E1A1FC /* libPods-TFQImageScrollView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84B45AF61ABBAF5900BE3B2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B45AE01ABBAF5800BE3B2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B45AE81ABBAF5800BE3B2E;
+			remoteInfo = TFQImageScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B2A75A9DC9B0FEAA5E1A1FC /* libPods-TFQImageScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TFQImageScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D73F705FD2059333B03221 /* Pods-TFQImageScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFQImageScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TFQImageScrollView/Pods-TFQImageScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		84B45AE91ABBAF5800BE3B2E /* TFQImageScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TFQImageScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B45AED1ABBAF5800BE3B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B45AEE1ABBAF5800BE3B2E /* TFQImageScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFQImageScrollView.h; sourceTree = "<group>"; };
+		84B45AF41ABBAF5900BE3B2E /* TFQImageScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFQImageScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B45AFA1ABBAF5900BE3B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B45AFB1ABBAF5900BE3B2E /* TFQImageScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFQImageScrollViewTests.m; sourceTree = "<group>"; };
+		84B45B051ABBAFC900BE3B2E /* TFQImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFQImageScrollView.m; sourceTree = "<group>"; };
+		F59B80D540C92BD741649416 /* Pods-TFQImageScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFQImageScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-TFQImageScrollView/Pods-TFQImageScrollView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84B45AE51ABBAF5800BE3B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882F6B11C6890F4CDFCC4EE0 /* libPods-TFQImageScrollView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B45AF11ABBAF5900BE3B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B45AF51ABBAF5900BE3B2E /* TFQImageScrollView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5025A932F0EC5C61CD79A8DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20D73F705FD2059333B03221 /* Pods-TFQImageScrollView.debug.xcconfig */,
+				F59B80D540C92BD741649416 /* Pods-TFQImageScrollView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6373C8279B13C58E68BEDDD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B2A75A9DC9B0FEAA5E1A1FC /* libPods-TFQImageScrollView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84B45ADF1ABBAF5800BE3B2E = {
+			isa = PBXGroup;
+			children = (
+				84B45AEB1ABBAF5800BE3B2E /* TFQImageScrollView */,
+				84B45AF81ABBAF5900BE3B2E /* TFQImageScrollViewTests */,
+				84B45AEA1ABBAF5800BE3B2E /* Products */,
+				5025A932F0EC5C61CD79A8DB /* Pods */,
+				6373C8279B13C58E68BEDDD6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84B45AEA1ABBAF5800BE3B2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84B45AE91ABBAF5800BE3B2E /* TFQImageScrollView.framework */,
+				84B45AF41ABBAF5900BE3B2E /* TFQImageScrollViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84B45AEB1ABBAF5800BE3B2E /* TFQImageScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				84B45AEE1ABBAF5800BE3B2E /* TFQImageScrollView.h */,
+				84B45B051ABBAFC900BE3B2E /* TFQImageScrollView.m */,
+				84B45AEC1ABBAF5800BE3B2E /* Supporting Files */,
+			);
+			path = TFQImageScrollView;
+			sourceTree = "<group>";
+		};
+		84B45AEC1ABBAF5800BE3B2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84B45AED1ABBAF5800BE3B2E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84B45AF81ABBAF5900BE3B2E /* TFQImageScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				84B45AFB1ABBAF5900BE3B2E /* TFQImageScrollViewTests.m */,
+				84B45AF91ABBAF5900BE3B2E /* Supporting Files */,
+			);
+			path = TFQImageScrollViewTests;
+			sourceTree = "<group>";
+		};
+		84B45AF91ABBAF5900BE3B2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84B45AFA1ABBAF5900BE3B2E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		84B45AE61ABBAF5800BE3B2E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B45AEF1ABBAF5800BE3B2E /* TFQImageScrollView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		84B45AE81ABBAF5800BE3B2E /* TFQImageScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B45AFF1ABBAF5900BE3B2E /* Build configuration list for PBXNativeTarget "TFQImageScrollView" */;
+			buildPhases = (
+				C38E101CF248C7933009CB88 /* Check Pods Manifest.lock */,
+				84B45AE41ABBAF5800BE3B2E /* Sources */,
+				84B45AE51ABBAF5800BE3B2E /* Frameworks */,
+				84B45AE61ABBAF5800BE3B2E /* Headers */,
+				84B45AE71ABBAF5800BE3B2E /* Resources */,
+				ADC8580DD8E81A728F485407 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFQImageScrollView;
+			productName = TFQImageScrollView;
+			productReference = 84B45AE91ABBAF5800BE3B2E /* TFQImageScrollView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		84B45AF31ABBAF5900BE3B2E /* TFQImageScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B45B021ABBAF5900BE3B2E /* Build configuration list for PBXNativeTarget "TFQImageScrollViewTests" */;
+			buildPhases = (
+				84B45AF01ABBAF5900BE3B2E /* Sources */,
+				84B45AF11ABBAF5900BE3B2E /* Frameworks */,
+				84B45AF21ABBAF5900BE3B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84B45AF71ABBAF5900BE3B2E /* PBXTargetDependency */,
+			);
+			name = TFQImageScrollViewTests;
+			productName = TFQImageScrollViewTests;
+			productReference = 84B45AF41ABBAF5900BE3B2E /* TFQImageScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84B45AE01ABBAF5800BE3B2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = TFQ;
+				TargetAttributes = {
+					84B45AE81ABBAF5800BE3B2E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					84B45AF31ABBAF5900BE3B2E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 84B45AE31ABBAF5800BE3B2E /* Build configuration list for PBXProject "TFQImageScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84B45ADF1ABBAF5800BE3B2E;
+			productRefGroup = 84B45AEA1ABBAF5800BE3B2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84B45AE81ABBAF5800BE3B2E /* TFQImageScrollView */,
+				84B45AF31ABBAF5900BE3B2E /* TFQImageScrollViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84B45AE71ABBAF5800BE3B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B45AF21ABBAF5900BE3B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ADC8580DD8E81A728F485407 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TFQImageScrollView/Pods-TFQImageScrollView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38E101CF248C7933009CB88 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84B45AE41ABBAF5800BE3B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B45B061ABBAFC900BE3B2E /* TFQImageScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B45AF01ABBAF5900BE3B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B45AFC1ABBAF5900BE3B2E /* TFQImageScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84B45AF71ABBAF5900BE3B2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B45AE81ABBAF5800BE3B2E /* TFQImageScrollView */;
+			targetProxy = 84B45AF61ABBAF5900BE3B2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84B45AFD1ABBAF5900BE3B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84B45AFE1ABBAF5900BE3B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84B45B001ABBAF5900BE3B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20D73F705FD2059333B03221 /* Pods-TFQImageScrollView.debug.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TFQImageScrollView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		84B45B011ABBAF5900BE3B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F59B80D540C92BD741649416 /* Pods-TFQImageScrollView.release.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TFQImageScrollView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		84B45B031ABBAF5900BE3B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TFQImageScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84B45B041ABBAF5900BE3B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TFQImageScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84B45AE31ABBAF5800BE3B2E /* Build configuration list for PBXProject "TFQImageScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B45AFD1ABBAF5900BE3B2E /* Debug */,
+				84B45AFE1ABBAF5900BE3B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B45AFF1ABBAF5900BE3B2E /* Build configuration list for PBXNativeTarget "TFQImageScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B45B001ABBAF5900BE3B2E /* Debug */,
+				84B45B011ABBAF5900BE3B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B45B021ABBAF5900BE3B2E /* Build configuration list for PBXNativeTarget "TFQImageScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B45B031ABBAF5900BE3B2E /* Debug */,
+				84B45B041ABBAF5900BE3B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84B45AE01ABBAF5800BE3B2E /* Project object */;
+}
