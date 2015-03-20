@@ -1,11 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-target 'TFQImageScollView', :exclusive => true do
-    pod "TFQImageScollView", :path => "../"
+target 'TFQImageScrollView', :exclusive => true do
+    pod "TFQImageScrollView", :path => "../"
     pod "SDWebImage"
 end
 
 target 'Tests', :exclusive => true do
-    pod "TFQImageScollView", :path => "../"
-  pod 'Kiwi'
+
+  
 end

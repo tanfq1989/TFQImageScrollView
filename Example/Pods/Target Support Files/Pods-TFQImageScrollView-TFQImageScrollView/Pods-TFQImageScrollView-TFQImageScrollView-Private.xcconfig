@@ -1,0 +1,6 @@
+#include "Pods-TFQImageScrollView-TFQImageScrollView.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/TFQImageScrollView" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/TFQImageScrollView"
+OTHER_LDFLAGS = ${PODS_TFQIMAGESCROLLVIEW_TFQIMAGESCROLLVIEW_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

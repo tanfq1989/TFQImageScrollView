@@ -1,22 +1,19 @@
 PODS:
-  - Kiwi (2.3.1)
   - SDWebImage (3.7.2):
     - SDWebImage/Core (= 3.7.2)
   - SDWebImage/Core (3.7.2)
-  - TFQImageScollView (0.0.2)
+  - TFQImageScrollView (0.1.0)
 
 DEPENDENCIES:
-  - Kiwi
   - SDWebImage
-  - TFQImageScollView (from `../`)
+  - TFQImageScrollView (from `../`)
 
 EXTERNAL SOURCES:
-  TFQImageScollView:
+  TFQImageScrollView:
     :path: ../
 
 SPEC CHECKSUMS:
-  Kiwi: 73e1400209055ee9c8ba78c6012b6b642d0fb9f7
   SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
-  TFQImageScollView: 3ae2cf1565a1942a79534fba42e1d6a2cc40b0b1
+  TFQImageScrollView: 3c489d0ab0a84d14056c9128bab55121a99de02e
 
 COCOAPODS: 0.36.0
