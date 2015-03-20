@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
     'TFQImageScrollView' => ['Pod/Assets/*.png']
   }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/*.h'
   s.frameworks = 'UIKit','SDWebImage'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
