@@ -34,6 +34,6 @@ s.source_files = 'Pod/Classes/*.{h,m}'
   }
 
 #s.public_header_files = 'Pod/Classes/*.h'
-  s.frameworks = 'UIKit','SDWebImage'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
